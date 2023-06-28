@@ -1,7 +1,7 @@
-id: template
-name: Template
+id: transportduct
+name: TransportDuct
 version: "0.0.0"
-description: template
+description: transportduct
 author: author
 
 data_pack:

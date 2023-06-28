@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "datapacktemplate"
+name = "transportduct"
 version = "0.0.0"
 description = "A datapack template"
 authors = ["edayot <pro.e.dayot@gmail.com>"]
