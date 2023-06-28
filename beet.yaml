@@ -1,0 +1,12 @@
+id: template
+name: Template
+version: "0.0.0"
+description: template
+author: author
+
+data_pack:
+  load: [.]
+resource_pack:
+  load: [.]
+
+extend: ["common.yaml"]
