@@ -8,3 +8,4 @@ execute if data entity @s Item.tag{CustomModelData:1430120} run loot spawn ~ ~ ~
 
 execute as @e[tag=transportduct.servo,distance=..5] unless data entity @s Item.Count at @s run kill @s
 
+kill @s
