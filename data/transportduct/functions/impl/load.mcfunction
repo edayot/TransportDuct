@@ -19,3 +19,4 @@ data modify storage transportduct:main ItemsNBT.id_filter set value {id:"minecra
 scoreboard objectives add transportduct.math dummy
 
 schedule function transportduct:impl/tick 1t replace
+schedule function transportduct:impl/8tick 8t replace

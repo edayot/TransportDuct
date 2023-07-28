@@ -4,7 +4,9 @@ extend: ["../../beet.yaml"]
 output: "build/"
 
 data_pack:
-  zipped: true
+  name: "datapack"
+  zipped: false
 
 resource_pack:
-  zipped: true
+  name: "resourcepack"
+  zipped: false

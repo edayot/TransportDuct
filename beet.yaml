@@ -5,7 +5,22 @@ description: transportduct
 author: author
 
 meta:
-  supports: ["1.20","1.20.1"]
+  mc_supports: ["1.20","1.20.1"]
+  mc_supports_dataversion: [3463,3465]
+  smithed_dependencies:
+    - id: "smithed:custom-block"
+      version_: "0.2.0"
+      versioning:
+        type: "normal"
+        prefix: "#smithed.custom_block"
+    - id: "airdox_:itemio"
+      version_: "0.5.4"
+      versioning:
+        type: "normal"
+        prefix: "#itemio"
+        
+pipeline:
+  - airdox_.test_load_generator
 
 data_pack:
   load: [.]
