@@ -16,6 +16,7 @@ require:
   - mecha.contrib.messages
   - beet.contrib.render
   - beet.contrib.model_merging
+  - bolt
 
 
 pipeline:
@@ -23,9 +24,11 @@ pipeline:
   - smithed_libraries.plugins.versioning
   - beet.contrib.find_replace
   - airdox_.add_license
+  - airdox_.add_readme
   - mecha.contrib.messages
   - beet.contrib.render
-
+  - beet.contrib.minify_json
+  - beet.contrib.minify_function
  
 
 
@@ -34,6 +37,7 @@ pipeline:
 meta:
   airdox_:
     license_path: "LICENSE"
+    readme_path: "README.md"
   find_replace:
     substitute:
       - data_pack:
@@ -50,7 +54,7 @@ meta:
     versioning:
       # Either a list or single item of paths to schedule clocks
       #  Used to kill library ticking if a newer library exists in-world
-      scheduled_paths: [impl/tick,impl/20tick]
+      scheduled_paths: impl/tick
 
       # configures how the pack leverages LL to implement enumeration and resolution
       lantern_load:
