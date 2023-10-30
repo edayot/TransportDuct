@@ -23,6 +23,7 @@ meta:
 pipeline:
   - airdox_.test_load_generator
   - airdox_.cache_dependencies
+  - airdox_.load_included
 
 data_pack:
   load: [.]

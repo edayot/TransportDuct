@@ -1,11 +1,7 @@
 data_pack:
-  name: "{{ project_name }}-v{{ project_version }}-Datapack"
-  description: "{{ project_description }}\n by {{ project_author }}, v{{ project_version }} - Datapack"
   zipped: false
 
 resource_pack:
-  name: "{{ project_name }}-v{{ project_version }}-Resourcepack"
-  description: "{{ project_description }}\n by {{ project_author }}, v{{ project_version }} - Resourcepack"
   zipped: false
 
 require:
@@ -46,7 +42,7 @@ meta:
             functions: "{{ project_id }}:*"
         substitute:
           - find: "__version__"
-            replace: "v{{ project_version }}"
+            replace: "{{ version_string }}"
   mecha:
     formatting: preserve
     multiline: true
@@ -67,7 +63,7 @@ meta:
       #  ex: smithed.actionbar/impl/reset -> smithed.actionbar/impl/v1.2.3/reset
       # here, we need to specify `{{ ctx.project_id }}`
       refactor:
-        match: "*:*"                  # which files to look at
+        match: "{{ project_id }}:*"                  # which files to look at
         find: "{{ project_id }}:impl/"               # which paths to look for
         replace: "{{ project_id }}:v{{ version }}/"  # what to replace path w/
 
