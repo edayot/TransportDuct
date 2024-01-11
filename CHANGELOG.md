@@ -2,6 +2,13 @@
 
 
 
+## v0.0.2 (2024-01-11)
+
+### Unknown
+
+* xdffbhdnqb ([`0242647`](https://github.com/edayot/TransportDuct/commit/0242647eb6debc4cfae0dafe10a3bef78b374448))
+
+
 ## v0.0.1 (2024-01-11)
 
 ### Chore
