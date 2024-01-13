@@ -32,4 +32,4 @@ tag_format = "v{version}"
 build_command = "make BUILD_TYPE=release"
 version_toml = ["pyproject.toml:tool.poetry.version"]
 upload_to_vcs_release = true
-dist_glob_patterns = ["build/**"]
+dist_glob_patterns = ["build/*.zip"]
