@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "transportduct"
-version = "0.0.0"
+version = "0.3.8"
 description = "A datapack template"
 authors = ["edayot <pro.e.dayot@gmail.com>"]
 license = "MIT"
@@ -30,3 +30,5 @@ logging_use_named_masks = false
 major_on_zero = true
 tag_format = "v{version}"
 build_command = "make BUILD_TYPE=release"
+version_toml = ["pyproject.toml:tool.poetry.version"]
+upload_to_vcs_release = true
