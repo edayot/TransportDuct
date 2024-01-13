@@ -2,6 +2,13 @@
 
 
 
+## v0.3.11 (2024-01-13)
+
+### Unknown
+
+* wip ([`ad3ee1b`](https://github.com/edayot/TransportDuct/commit/ad3ee1bd178104a446f69921adac935ce00ed953))
+
+
 ## v0.3.10 (2024-01-13)
 
 
