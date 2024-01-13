@@ -24,13 +24,13 @@ files = [
 
 [[package]]
 name = "beet"
-version = "0.100.0"
+version = "0.103.1"
 description = "The Minecraft pack development kit"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "beet-0.100.0-py3-none-any.whl", hash = "sha256:fe690659d461b9210cd810c8f7851bf32a7b74ceacaaadf8ae48aad5108f4759"},
-    {file = "beet-0.100.0.tar.gz", hash = "sha256:1c7bd7a0583f64b07babfb66200028bd6e1974fa02806bd4e406809d91738bd3"},
+    {file = "beet-0.103.1-py3-none-any.whl", hash = "sha256:cf4805f42118599b58f2417ec5009d524adb07f35e0fff2a0fe22fd81d04b8ee"},
+    {file = "beet-0.103.1.tar.gz", hash = "sha256:52f784a53952a816611840ead2020b9ea2229e7e7f4f5207daf7f145d539485b"},
 ]
 
 [package.dependencies]
@@ -532,13 +532,13 @@ files = [
 
 [[package]]
 name = "mecha"
-version = "0.86.1"
+version = "0.86.2"
 description = "A powerful Minecraft command library"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "mecha-0.86.1-py3-none-any.whl", hash = "sha256:21f4902f0fb26d80f6e46237222972feef12cd443b32891636e2985e560e6b96"},
-    {file = "mecha-0.86.1.tar.gz", hash = "sha256:410750d29c4e08d6f6ef2235da9536319a33aafaca2d026ac43cd87552a796ac"},
+    {file = "mecha-0.86.2-py3-none-any.whl", hash = "sha256:0ab1ee74719b11331f29216af124ca8b01e22fad92a9888b54b6c351be9dbeb0"},
+    {file = "mecha-0.86.2.tar.gz", hash = "sha256:88acd1fe1fda8ac7ac8f731949d54218362898021c2f662fed3663e74339c983"},
 ]
 
 [package.dependencies]
@@ -776,6 +776,20 @@ files = [
 [package.extras]
 plugins = ["importlib-metadata"]
 windows-terminal = ["colorama (>=0.4.6)"]
+
+[[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python-dotenv-1.0.0.tar.gz", hash = "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba"},
+    {file = "python_dotenv-1.0.0-py3-none-any.whl", hash = "sha256:f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
 
 [[package]]
 name = "python-gitlab"
@@ -1110,4 +1124,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "0325dcd077433bcf56e3e3a7eaffc64ea444213bbde74e1f060b9df46faa2db2"
+content-hash = "8b6055655eaec5765a90d68ef42849eb606da1ea8d181e60ef8e68fc8e2611e6"

@@ -11,3 +11,4 @@ docs/
 !release/included/none/pack.mcmeta
 
 build
+.env

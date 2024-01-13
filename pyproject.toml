@@ -12,7 +12,8 @@ smithed-libraries = {git = "https://github.com/edayot/Libraries.git", branch = "
 smithed= {git = "https://github.com/Smithed-MC/smithed-python.git", branch = "main"}
 cryptography = "^41.0.0"
 tqdm = "^4.66.1"
-python-semantic-release = "^8.7.0"
+python-semantic-release = "8.7.0"
+python-dotenv = "^1.0.0"
 
 
 
