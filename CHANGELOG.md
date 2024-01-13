@@ -2,6 +2,13 @@
 
 
 
+## v0.3.6 (2024-01-13)
+
+### Unknown
+
+* xdffbhdnqb ([`bcfe29c`](https://github.com/edayot/TransportDuct/commit/bcfe29c77f3312ea93f311ff73c8a81940bb4936))
+
+
 ## v0.3.5 (2024-01-13)
 
 
