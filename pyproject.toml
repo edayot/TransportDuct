@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "transportduct"
-version = "0.3.11"
+version = "0.3.12"
 description = "A datapack template"
 authors = ["edayot <pro.e.dayot@gmail.com>"]
 license = "MIT"
