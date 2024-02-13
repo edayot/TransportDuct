@@ -5,7 +5,8 @@ summon chest_minecart ~ ~ ~ {
         "itemio.container",
         "itemio.container.hopper",
         "itemio.container.nbt_items",
-        "itemio.container.nbt_items.on_vehicle"
+        "itemio.container.nbt_items.on_vehicle",
+        "itemio.container.hopper_protection_8"
         ]
     }],
     Tags:["example.chest_minecart_container","example.chest_minecart_container.summoned"]
