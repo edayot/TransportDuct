@@ -7,16 +7,14 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
-smithed-libraries = {git = "https://github.com/edayot/Libraries.git", branch = "1.20.4"}
-smithed= {git = "https://github.com/Smithed-MC/smithed-python.git", branch = "main"}
-cryptography = "^41.0.0"
-tqdm = "^4.66.1"
 python-semantic-release = "8.7.0"
 python-dotenv = "^1.0.0"
-
-
-
+python = ">=3.11,<3.12"
+weld-deps = {git = "https://github.com/edayot/weld-deps.git", branch = "main"}
+smithed-libraries = {git = "https://github.com/edayot/Libraries.git", branch = "main"}
+smithed= {git = "https://github.com/Smithed-MC/smithed-python.git", branch = "main"}
+cryptography = "^42.0.4"
+tqdm = "^4.66.1"
 
 [build-system]
 requires = ["poetry-core"]

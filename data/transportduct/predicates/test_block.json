@@ -1,8 +1,8 @@
 {
-	"condition": "minecraft:location_check",
-	"predicate": {
-		"block": {
-			"tag": "transportduct:all_blocks"
-		}
-	}
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "block": {
+            "blocks": "#transportduct:all_blocks"
+        }
+    }
 }

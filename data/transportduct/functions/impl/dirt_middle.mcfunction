@@ -8,11 +8,11 @@ execute
     summon item_display
     run function ~/place_entity:
         # Define the ioconfig
-        data modify entity @s item.tag.itemio.ioconfig set value []
+        data modify entity @s item.components."minecraft:custom_data".itemio.ioconfig set value []
 
         for slot in range(9, 18):
             slot_str = f"{slot}b"
-            data modify entity @s item.tag.itemio.ioconfig append value {
+            data modify entity @s item.components."minecraft:custom_data".itemio.ioconfig append value {
                 Slot:slot,
                 mode: "both",
                 allowed_side:{bottom:1b,top:1b,north:1b,south:1b,east:1b,west:1b},

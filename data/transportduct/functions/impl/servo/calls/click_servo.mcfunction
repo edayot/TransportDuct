@@ -10,9 +10,9 @@ tag @s remove transportduct.looker
 
 
 
-execute if predicate transportduct:holding_wrench unless predicate transportduct:sneaking as @e[tag=transportduct.selected] run function transportduct:impl/servo/change_io
-execute if predicate transportduct:holding_wrench if predicate transportduct:sneaking run function transportduct:impl/servo/display_filters
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{ctc:{id:"wrench",from:"airdox_:transportduct"}}] unless predicate transportduct:sneaking as @e[tag=transportduct.selected] run function transportduct:impl/servo/change_io
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{ctc:{id:"wrench",from:"airdox_:transportduct"}}] if predicate transportduct:sneaking run function transportduct:impl/servo/display_filters
 
-execute if predicate transportduct:holding_id_filter unless predicate transportduct:sneaking run function transportduct:impl/servo/apply_filter
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{ctc:{id:"id_filter",from:"airdox_:transportduct"}}] unless predicate transportduct:sneaking run function transportduct:impl/servo/apply_filter
 
 tag @e[tag=transportduct.selected] remove transportduct.selected

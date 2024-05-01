@@ -8,8 +8,8 @@ execute if score @s transportduct.math matches ..1430116 run scoreboard players 
 
 
 
-data modify entity @s item set value {id:"minecraft:furnace",Count:1b}
-execute store result entity @s item.tag.CustomModelData int 1 run scoreboard players get @s transportduct.math
+data modify entity @s item set value {id:"minecraft:furnace",count:1}
+execute store result entity @s item.components."minecraft:custom_model_data" int 1 run scoreboard players get @s transportduct.math
 
 
 

@@ -10,7 +10,9 @@
 			"color": "white",
 			"italic": false
 		}
-	  ]
+	  ],
+	  "mode": "insert"
+
 	}
   ]
   

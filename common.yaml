@@ -46,6 +46,7 @@ meta:
   mecha:
     formatting: preserve
     multiline: true
+    commands: "https://raw.githubusercontent.com/misode/mcmeta/summary/commands/data.json"
 
   smithed:
     versioning:
